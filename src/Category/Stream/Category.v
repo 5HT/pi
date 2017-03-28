@@ -36,7 +36,7 @@ Module Stream.
 
   Arguments mkMorphism  {_ _ _} _.
   Arguments τ           {_ _} _.
-  Arguments τ_commutes  {_ _} _ {_ _ _ _}.
+  Arguments τ_commutes  {_ _} _ _.
 
   Notation "'Stream.make' ⦃ 'τ' ≔ τ ⦄" := (@mkMorphism _ _ τ _) (only parsing).
 

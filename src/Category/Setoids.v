@@ -58,7 +58,7 @@ Module Setoids.
 
   Arguments mkMorphism  {_ _ _} _.
   Arguments map         {_ _} _ _.
-  Arguments cong        {_ _} _ _. (*{_ _ _}*)
+  Arguments cong        {_ _} _ _.
 
   Module Morphism.
 
